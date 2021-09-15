@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commander", "Commander\Commander.csproj", "{BB32FE78-1420-49C2-A153-15394BD3B980}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{5020A4E5-B13B-45CB-9A2E-682DA0E76F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commander.DAL", "Commander.DAL\Commander.DAL.csproj", "{728A63BC-8E0A-4E71-A943-35933AB642B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{570BB0FC-1BA0-45E1-8505-7326CFDF87E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commander.BLL", "Commander.BLL\Commander.BLL.csproj", "{D28FEEE2-AB32-4A8F-8691-FA1B6B6D2E8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB32FE78-1420-49C2-A153-15394BD3B980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB32FE78-1420-49C2-A153-15394BD3B980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB32FE78-1420-49C2-A153-15394BD3B980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB32FE78-1420-49C2-A153-15394BD3B980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728A63BC-8E0A-4E71-A943-35933AB642B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728A63BC-8E0A-4E71-A943-35933AB642B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728A63BC-8E0A-4E71-A943-35933AB642B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728A63BC-8E0A-4E71-A943-35933AB642B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28FEEE2-AB32-4A8F-8691-FA1B6B6D2E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28FEEE2-AB32-4A8F-8691-FA1B6B6D2E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28FEEE2-AB32-4A8F-8691-FA1B6B6D2E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28FEEE2-AB32-4A8F-8691-FA1B6B6D2E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{728A63BC-8E0A-4E71-A943-35933AB642B5} = {5020A4E5-B13B-45CB-9A2E-682DA0E76F40}
+		{D28FEEE2-AB32-4A8F-8691-FA1B6B6D2E8A} = {570BB0FC-1BA0-45E1-8505-7326CFDF87E2}
+	EndGlobalSection
+EndGlobal
